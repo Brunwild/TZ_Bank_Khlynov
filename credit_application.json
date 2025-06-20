@@ -1,0 +1,74 @@
+{
+  "application_id": "ABC-2026-456789",
+  "application_date": "2025-06-20",
+  "applicant": {
+    "personal_info": {
+      "full_name": "Иванов Иван Иванович",
+      "birth_date": "1985-06-20",
+      "passport": {
+        "series": "0000",
+        "number": "123456",
+        "issue_date": "2015-04-10",
+        "issued_by": "ОУФМС России по Кировской обл. в районе г. Кирова"
+      },
+      "snils": "123-456-789-00",
+      "inn": "430123456789"
+    },
+    "contact_info": {
+      "phone": "+70000000000",
+      "email": "ivanov@example.com",
+      "address": {
+        "registration": "г. Киров, ул. Уездная, д. 1, кв. 2",
+        "residential": "г. Киров, ул. Уездная, д. 1, кв. 2"
+      }
+    },
+    "employment_info": {
+      "employer": "ООО 'Работа'",
+      "position": "Специалист",
+      "experience_months": 36,
+      "salary": 100000,
+      "additional_income": 18000,
+      "income_source": "аренда квартиры"
+    }
+  },
+  "loan_details": {
+    "loan_type": "consumer_loan",
+    "amount": 500000,
+    "currency": "RUB",
+    "term_months": 36,
+    "purpose": "ремонт квартиры",
+    "interest_rate": 16.5,
+    "collateral": {
+      "type": "real_estate",
+      "description": "2-комн. квартира, 61 кв.м., г. Киров",
+      "estimated_value": 5000000
+    }
+  },
+  "financial_obligations": {
+    "existing_loans": [
+      {
+        "creditor": "ПАО 'Банк'",
+        "amount": 100000,
+        "monthly_payment": 11000,
+        "remaining_term_months": 12
+      }
+    ],
+    "dependents": 0
+  },
+  "consents": {
+    "credit_history_check": true,
+    "personal_data_processing": true,
+    "scoring": true
+  },
+  "status": "under_review",
+  "bank_employee": {
+    "id": "QWE-12345",
+    "name": "Петрова Мария Петровна",
+    "department": "retail_credit"
+  },
+  "expiration": {
+    "value": 24,
+    "unit": "TimeUnit_Hours"
+  },
+  "applicationSource": "applicationSource_Mobile"
+}
